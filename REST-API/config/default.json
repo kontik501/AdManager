@@ -1,0 +1,15 @@
+{
+	"server": {
+		"host": "127.0.0.1",
+		"port": 6061
+	},
+	"api": {
+		"useCors": true,
+		"basePath": "/api",
+		"connectionString": "postgres://kontik:95854711@localhost:5432/Unify"
+	},
+	"environment": {
+		"tokenSecret": "eb3bd0692a8479930208fc4e04bc250b8c73e1ffda3f9443e521fefe51dbfa93097c6b7c87efb696f8b26b9a9b25e3d42ce101c77b8b257f13cfc0eda32a2fab3b2e2afdfa18063a38cb2f708986dc62c0af2c30567d4a1db0a9e8983e611080627acea159a4bcd42b9ca5aa4e5170773655fb959ebd73744e9e61730935180e",
+		"passwordSalt": "$2b$10$i.SsCXZ.975NnfIlPmJuCe"
+	}
+}

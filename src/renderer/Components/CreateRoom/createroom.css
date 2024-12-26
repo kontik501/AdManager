@@ -1,0 +1,13 @@
+.room-popup{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: #5f5f5f solid;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 20%;
+    min-width: 350px;
+    height: 200px;
+    position: relative;
+}
+
+

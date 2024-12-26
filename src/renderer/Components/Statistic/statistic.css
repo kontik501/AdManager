@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'StatFont';
+    src: url('../../Styles/fonts/Poppins-SemiBold.ttf') format('ttf'),
+}
+
+.statistic-component {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.statistic-component hr{
+    width: 80%;
+    height: 1px;
+    border: none;
+    background-color: #9a9a9a;
+    opacity: 20%;
+}
+
+
+.head {
+    text-align: center;
+    margin: 0;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.base-stats {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffffc7;
+    width: 80%;
+    padding: 20px;
+    align-self: center;
+    margin-top: 50px;
+    border-radius: 15px;
+    justify-content: space-evenly;
+    color: #222222;
+}
+
+.stat-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.statistic-component h2 {
+    font-family: 'StatFont', sans-serif;
+}
+
+.statistics-container {
+    margin-left: 40px;
+    margin-top: 100px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.statistics-container hr {
+    width: 100%;
+    height: 1px;
+    border: none;
+    background-color: #9a9a9a;
+    opacity: 20%;
+}
+
+
+.statistic-item {
+    width: 50%;
+}
+
+.task-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.task-card{
+    margin-top: 20px;
+    height: 200px;
+    width: 250px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #222222;
+}
+.task-description{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.task-card hr{
+    width: 100%;
+    height: 2px;
+    border: none;
+    background-color: #222222;
+}
+
+.footer{
+    height: 200px;
+    width: 100%;
+}

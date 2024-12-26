@@ -1,0 +1,146 @@
+.sidenav{
+    background-color: #202020;
+    height: 100%;
+    width: 15vw;
+    min-width: 175px;
+    border-right: 1px solid #2b2b2b;
+    box-sizing: border-box;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidenav-items{
+  margin-top: 10px;
+  margin-left: 4px;
+  margin-right: 4px;
+  width: calc(100% - 8px);
+  display: flex;
+  flex-direction: column;
+}
+
+.settings{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 40px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: transparent;
+  position: relative;
+  color: #9b9b9b;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.settings:hover{
+  background-color: #383838;
+  color: #d4d4d4;
+}
+
+
+.settings h3{
+  padding-left: 10%;
+  font-size: 20px;
+}
+
+.sidenav hr{
+  width: 85%;
+  height: 1px;
+  border: none;
+  background-color: #9a9a9a;
+  opacity: 20%;
+}
+
+.createNewRoom{
+  width: calc(100% - 14px);
+  min-width: 108px;
+  background-color: transparent;
+  margin: 5px;
+  border-radius: 10px;
+  border: 2px solid #2b2b2b;
+  opacity: 20%;
+  height: 50px;
+  min-height: 45px;
+  cursor: pointer;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.createNewRoom p{
+  margin: 0;
+}
+
+.createNewRoom:hover{
+  background-color: #2c2c2c;
+}
+
+.room{
+  width: calc(100% - 14px);
+  min-width: 108px;
+  background-color: transparent;
+  margin: 5px;
+  border-radius: 10px;
+  border: 2px solid #2b2b2b;
+  height: 50px;
+  min-height: 45px;
+  cursor: pointer;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  color: #9b9b9b;
+}
+
+.room p{
+  margin: 0;
+  color: #9b9b9b;
+  margin-left: 20px;
+}
+
+.delete-room{
+  height: 24px;
+  width: 24px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.delete-room:hover{
+  background-color: rgb(129, 27, 27);
+}
+
+.sideRooms{
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.sideRooms:hover::-webkit-scrollbar{
+  width: 4px;
+}
+
+.sideRooms::-webkit-scrollbar {
+  width: 0px;
+  height: 8px;
+}
+
+.sideRooms::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: #888; 
+}
+
+.room:hover{
+  background-color: #383838;
+}
+
+.selected{
+  background-color: #383838;
+}
